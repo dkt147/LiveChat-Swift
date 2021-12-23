@@ -20,6 +20,7 @@ class LandingViewController: UIViewController {
     
 }
 
+//Extension for adding something in UI storyboard...
 private extension LandingViewController{
     func setupUI(){
         Image.image = UIImage(named: "logo", in: Bundle(for: LandingViewController.self), with: nil)
