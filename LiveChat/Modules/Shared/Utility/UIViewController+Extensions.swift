@@ -8,6 +8,8 @@
 import UIKit
 
 public extension UIViewController{
+    
+    //It is causing error need to solve it out..
     class func instantiate<T: UIViewController>(from storyboard:UIStoryboard, identifier:String) -> T {
         return storyboard.instantiateViewController(withIdentifier: identifier) as! T 
     }
