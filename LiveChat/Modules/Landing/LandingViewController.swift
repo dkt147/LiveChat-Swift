@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+//This view will appear instead of normal view, It is using Frameworl approach
 class LandingViewController: UIViewController {
 
     @IBOutlet weak var Image: UIImageView!
