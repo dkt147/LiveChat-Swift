@@ -8,6 +8,7 @@
 import UIKit
 import Utility
 
+//It is basically connecting application with storyboard layout...
 public final class Builder{
     
     public static func build() -> UIViewController{
